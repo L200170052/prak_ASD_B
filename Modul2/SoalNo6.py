@@ -60,9 +60,9 @@ class SiswaSMA(Manusia):
         self.alamat = alamat
     def __str__(self):
         s = "Nama      : " + str(self.nama)\
-            "NISN      : " + str(self.nisn)\
-            "Alamat    : " + str(self.alamat)\
-            "Uang Jajan : " + str(self.uangJajan)
+           + "NISN      : " + str(self.nisn)\
+           + "Alamat    : " + str(self.alamat)\
+           + "Uang Jajan : " + str(self.uangJajan)
         return s
 
 print ("Silahkan tulis nama variabel lalu = Mahasiswa (.......) untuk menjalankan program")
